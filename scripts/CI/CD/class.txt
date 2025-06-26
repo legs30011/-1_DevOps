@@ -1,0 +1,61 @@
+#crear pipelin flujos 
+Overviewe:
+    benefits and challenfes
+    ci best and bad practice
+
+Overview: 
+    deliver code changes more frequentlu and quickly
+    Plan Code Build Test Release Deploy Operate
+    ----------CI------||-------CD---------------
+    Unit test:dev 
+    Explore Test:qa
+    Release: Branch management (jira)-estrategias
+    Deployment: contenedores-infrestructura o solo un manejador de contenedores
+    
+
+    CI:cambios en el software
+     Advantages:
+        always releasable
+        finished features are finished 
+        monitor you KPIs -indicadores calculables
+        Youre team works move effectively
+        Uniform Release procedure
+    Challenges:
+        Defining mining minimal waulity standards
+        team mindset
+        skipping testing
+
+
+    CI BEST PRACTICE:
+        Commit ealy and ofeten
+        make it the only way to deploy to prodcution
+        continuosly review your automation processess
+        spped up your pipeline
+    CI BAD PRACTICES:
+        Running all tests, all the time
+        overcomplicating pipelines
+        skipping security and compliance checks
+        delivery without automation
+    
+    source control:
+        what action should trigger a pipeline run?
+        which tools can help us with this phase?
+    build:
+        ts-boundler-package file static
+    test:
+    Playwright stc
+
+
+Metricas de DEVOPS
+
+
+2 min presentation design
+||||||||||||||\\
+Devops KPI: QUE es como es como se ahce todo(tarea),tools or 
+tech for each ci cd no more then 10- min presentation
+Como medimos el performance (Metricas de Aplicaciones)
+
+base de datos manejo sesiones back y frontend, diagrama,
+con herramientas de la tarea y caracteristica de la aplicaciones,elegimos herramientas
+para el pipeline , para el servicio ,es para futuro desarrollar pipeline hasta la parte datos
+de Deployment
