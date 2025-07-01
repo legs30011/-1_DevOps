@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Docker",
+      "type": "node",
+      "request": "attach",
+      "protocol": "inspector",
+      "address": "localhost",
+      "port": 5858,
+      "restart": true,
+      "sourceMaps": false,
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/code"
+    },
+    {
+      "name": "Launch Chrome",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:8000",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

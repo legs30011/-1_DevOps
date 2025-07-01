@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    command: nodemon --inspect=0.0.0.0:5858 --legacy-watch
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+      - "5858:5858"
